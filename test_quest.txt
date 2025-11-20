@@ -1,0 +1,7 @@
+quest "The Lost Sword" {
+    active: true,
+    reward: 500,
+    step: "Talk to the blacksmith",
+    step: "Find the cave entrance",
+    step: "Defeat the skeleton king"
+}

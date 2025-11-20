@@ -1,0 +1,16 @@
+[package]
+name = "game_quest_parser_Hodik"
+version = "0.1.2"
+edition = "2021"
+description = "A parser for the Game Quest Definition Language (GQDL)"
+authors = ["Hodik Maksym"]
+license = "MIT"
+repository = "https://github.com/f1orevita/game_quest_parser"
+
+[dependencies]
+thiserror = "1.0"
+anyhow = "1.0"
+clap = { version = "4.4", features = ["derive"] }
+
+[dev-dependencies]
+anyhow = "1.0"
